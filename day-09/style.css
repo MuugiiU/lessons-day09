@@ -1,0 +1,48 @@
+/* .text-1 */
+/* { */
+display: inline-block;
+/* } */
+/* .subtext */
+/* { */
+    /* display: inline-block
+} */
+/* text-2 */
+/* { */
+    /* display:inline-block */
+/* } */
+.text-1
+{
+    display: flexs;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    border: 5px solid red;
+    height: cal(100vh -20px);
+     width: cal(100vh -20px);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: center;
+}
+img
+{
+    margin: 30px;
+}
+   
+#main
+{
+ width: 220px;
+ height: 300px;
+ border: 1px solid black;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#myBlueDiv
+{
+    align-self: center;
+}
